@@ -1,0 +1,1 @@
+table_to_go -db=v3 -table={{table}} -host=20.26.28.187 -pwd=root -w = true

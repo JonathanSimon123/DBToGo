@@ -45,6 +45,11 @@ func sqltogo() {
 			Usage: "数据库主机地址",
 		},
 		cli.StringFlag{
+			Name:  "port,p",
+			Value: "3306",
+			Usage: "数据库主机地址",
+		},
+		cli.StringFlag{
 			Name:  "user",
 			Value: "root",
 			Usage: "用户名",
@@ -63,10 +68,11 @@ func sqltogo() {
 		dbName := c.String("db")
 		tableName := c.String("table")
 		host := c.String("host")
+		port := c.String("port")
 		user := c.String("user")
 		pwd := c.String("pwd")
 		writeFile := c.Bool("writefile")
-		GetDBTableStruct(host, user, pwd, dbName, tableName, writeFile)
+		GetDBTableStruct(host, port, user, pwd, dbName, tableName, writeFile)
 		return nil
 	}
 	err := app.Run(os.Args)
@@ -76,9 +82,9 @@ func sqltogo() {
 	}
 }
 
-func GetDBTableStruct(host, user, pwd, dbName, tableName string, writeFile bool) {
+func GetDBTableStruct(host, port, user, pwd, dbName, tableName string, writeFile bool) {
 	// 连接数据库
-	err := orm.RegisterDataBase("default", "mysql", user+":"+pwd+"@tcp("+host+":3366)/"+dbName+"?charset=utf8")
+	err := orm.RegisterDataBase("default", "mysql", user+":"+pwd+"@tcp("+host+":"+port+")/"+dbName+"?charset=utf8")
 	if err != nil {
 		fmt.Println(err)
 		return
