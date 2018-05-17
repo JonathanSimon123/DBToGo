@@ -1,1 +1,1 @@
-table_to_go -db=v3 -table={{table}} -host=20.26.28.187 -pwd=root -w = true
+./table_to_go -db={{db}} -table={{table}} -host={{host}} -p={{port}} -pwd={{pwd}} -w={{bool}}
