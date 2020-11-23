@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2020-11-20T06:13:48.563Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="WXcWsUZtU395GooXin2v" version="13.9.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-11-23T07:54:56.454Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="E63Fau-dL--3D5SZ8SRx" version="13.9.9" type="github" pages="2">
   <diagram id="51TAxNlgc3YLOxyYzxUi" name="第 2 页">
-    <mxGraphModel dx="2442" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="2600" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="dALIu_aFqmW9-7bHYHSl-0" />
         <mxCell id="dALIu_aFqmW9-7bHYHSl-1" parent="dALIu_aFqmW9-7bHYHSl-0" />
         <mxCell id="6Yp7SSYfq_KLftfdoLlo-91" value="" style="group" vertex="1" connectable="0" parent="dALIu_aFqmW9-7bHYHSl-1">
           <mxGeometry x="-460" y="930" width="410" height="595" as="geometry" />
         </mxCell>
-        <mxCell id="6Yp7SSYfq_KLftfdoLlo-52" value="history&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;open sans&amp;#34; , &amp;#34;clear sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;strategy version&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="6Yp7SSYfq_KLftfdoLlo-91">
+        <mxCell id="6Yp7SSYfq_KLftfdoLlo-52" value="&lt;div style=&quot;text-align: left&quot;&gt;历史数据的权重ID&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;与最新权重ID是否有变化&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="6Yp7SSYfq_KLftfdoLlo-91">
           <mxGeometry y="245" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="6Yp7SSYfq_KLftfdoLlo-53" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="6Yp7SSYfq_KLftfdoLlo-52" parent="6Yp7SSYfq_KLftfdoLlo-91">
@@ -133,7 +133,7 @@
         <mxCell id="6Yp7SSYfq_KLftfdoLlo-4" value="mysql" style="html=1;" vertex="1" parent="p5JkRMda8S33arwp0Ing-0">
           <mxGeometry y="70" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="6Yp7SSYfq_KLftfdoLlo-8" value="dispatch" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="6Yp7SSYfq_KLftfdoLlo-7" parent="p5JkRMda8S33arwp0Ing-0" source="6Yp7SSYfq_KLftfdoLlo-4">
+        <mxCell id="6Yp7SSYfq_KLftfdoLlo-8" value="" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="6Yp7SSYfq_KLftfdoLlo-7" parent="p5JkRMda8S33arwp0Ing-0" source="6Yp7SSYfq_KLftfdoLlo-4">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="190" y="90" as="sourcePoint" />
           </mxGeometry>
@@ -289,9 +289,6 @@
         <mxCell id="6Yp7SSYfq_KLftfdoLlo-87" value="&lt;span&gt;根据对应com的&lt;br&gt;pickLevel比较是否进入查询周期&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="p5JkRMda8S33arwp0Ing-2">
           <mxGeometry x="97.5" y="295" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="6Yp7SSYfq_KLftfdoLlo-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="p5JkRMda8S33arwp0Ing-2" source="6Yp7SSYfq_KLftfdoLlo-87" target="6Yp7SSYfq_KLftfdoLlo-87">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="6Yp7SSYfq_KLftfdoLlo-89" value="策略选择(详见策略逻辑)" style="html=1;" vertex="1" parent="p5JkRMda8S33arwp0Ing-2">
           <mxGeometry x="240" y="205" width="142.5" height="60" as="geometry" />
         </mxCell>
@@ -410,13 +407,13 @@
           <mxGeometry x="1400" y="1160" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="tw57qYgY7Z4NnTri2IWv-2" value="" style="group" vertex="1" connectable="0" parent="dALIu_aFqmW9-7bHYHSl-1">
-          <mxGeometry x="-220" y="150" width="220" height="110" as="geometry" />
+          <mxGeometry x="-360" y="30" width="420" height="220" as="geometry" />
         </mxCell>
         <mxCell id="tw57qYgY7Z4NnTri2IWv-0" value="术语描述:" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="tw57qYgY7Z4NnTri2IWv-2">
-          <mxGeometry width="60" height="30" as="geometry" />
+          <mxGeometry width="76.36363636363636" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="tw57qYgY7Z4NnTri2IWv-1" value="com:快递公司&lt;br&gt;pickLevel:查询频率&lt;br&gt;strategy version:策略版本&lt;br&gt;subscribe:物流订阅&lt;br&gt;query:物流查询&lt;br&gt;pick:轮询物流订单进入查询周期&lt;br&gt;&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="tw57qYgY7Z4NnTri2IWv-2">
-          <mxGeometry x="40" y="40" width="180" height="70" as="geometry" />
+        <mxCell id="tw57qYgY7Z4NnTri2IWv-1" value="com:快递公司&lt;br&gt;&lt;br&gt;subscribe:物流订阅&lt;br&gt;query:物流查询&lt;br&gt;&lt;br&gt;pick:轮询物流订单进入查询周期&lt;br&gt;pickLevel:&amp;nbsp; 选取速率级别&lt;br&gt;&lt;br&gt;权重:每个快递公司针对每个渠道都会有一个权重比例&lt;br&gt;策略版本: 每次策略调整都会产生一个版本&lt;br&gt;数据埋点:记录渠道情况的指标信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="tw57qYgY7Z4NnTri2IWv-2">
+          <mxGeometry x="50.90909090909091" y="58.666666666666664" width="369.09090909090907" height="161.33333333333331" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
